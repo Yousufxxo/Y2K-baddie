@@ -1,0 +1,251 @@
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Outfit', sans-serif;
+    }
+
+    body {
+      background-color: #fff;
+      color: #000;
+      overflow-x: hidden;
+    }
+    .devContact{
+     width: 100vw;
+     height: 100vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+     background-color:  #ff69b4;
+     text-transform: capitalize;
+    }
+/* Loader Styles */
+#loader {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      background-color:  #ff69b4;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      z-index: 9999;
+    }
+
+    #loader img {
+      width: 150px;
+      animation: fadeInOut 2s infinite;
+    }
+    .hidden {
+      display: none !important;
+    }
+    
+
+    @keyframes fadeInOut {
+      0%, 100% { opacity: 0.2; }
+      50% { opacity: 1; }
+    }
+    header {
+      background-color: #fff;
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: sticky;
+      top: 0;
+      z-index: 999;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+    }
+
+    .logo {
+      font-size: 1.8rem;
+      font-weight: 700;
+      color: #ff69b4;
+    }
+
+    nav {
+      display: flex;
+      gap: 20px;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #000;
+      font-weight: 500;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #ff69b4;
+    }
+
+    .hamburger {
+      display: none;
+      font-size: 1.5rem;
+      cursor: pointer;
+    }
+
+    .hero {
+      height: 100vh;
+      background: linear-gradient(to right, #fff, #fea6c9);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 40px;
+      transition: all 0.5s ease-in-out;
+    }
+
+    .hero h1 {
+      font-size: 3rem;
+      color: #000;
+    }
+
+    .hero p {
+      font-size: 1.2rem;
+      color: #555;
+      margin-top: 10px;
+    }
+
+    section {
+      padding: 60px 30px;
+      transition: all 0.5s ease-in-out;
+    }
+
+    .section-title {
+      font-size: 2rem;
+      margin-bottom: 20px;
+      color: #ff69b4;
+      text-align: center;
+    }
+
+    .product-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      margin-top: 20px;
+    }
+
+    .product {
+      border: 1px solid #eee;
+      border-radius: 12px;
+      overflow: hidden;
+      text-align: center;
+      transition: transform 0.3s ease;
+      background-color: #fff0f6;
+    }
+
+    .product img {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+    }
+
+    .product h3 {
+      margin: 10px 0;
+      font-size: 1.2rem;
+    }
+
+    .product p {
+      font-size: 0.9rem;
+      color: #333;
+    }
+
+    .product:hover {
+      transform: scale(1.03);
+    }
+    .buy-now-btn {
+        display: inline-block;
+        margin-top: 10px;
+        padding: 10px 20px;
+        background-color: #ff69b4;
+        color: #fff;
+        border: none;
+        border-radius: 25px;
+        font-weight: 600;
+        cursor: pointer;
+        text-decoration: none;
+        transition: background 0.3s ease;
+      }
+  
+      .buy-now-btn:hover {
+        background-color: #e758a0;
+      }
+    form {
+      max-width: 500px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+
+    input, textarea, button {
+      padding: 10px;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+      font-size: 1rem;
+    }
+
+    button {
+      background-color: #ff69b4;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #ff1493;
+    }
+
+    .contact-icons i {
+      font-size: 1.8rem;
+      margin-right: 15px;
+      color: #000;
+      transition: color 0.3s;
+    }
+
+    .contact-icons i:hover {
+      color: #ff69b4;
+    }
+
+    .map iframe {
+      width: 100%;
+      height: 300px;
+      border: none;
+    }
+
+    footer {
+      background-color: #000;
+      color: #fff;
+      padding: 15px;
+      text-align: center;
+    }
+
+    @media (max-width: 768px) {
+      nav {
+        display: none;
+        flex-direction: column;
+        background: #fff;
+        position: absolute;
+        top: 70px;
+        right: 0;
+        width: 100%;
+        padding: 20px;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      }
+
+      nav.active {
+        display: flex;
+      }
+
+      .hamburger {
+        display: block;
+      }
+      .buy-now-btn{
+        margin: 10px;
+      }
+    }

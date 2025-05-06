@@ -1,0 +1,163 @@
+<!-- Loader -->
+    <div id="loader">
+      <img src="img/y2k circle logo_024539.png" alt="Y2K Baddie Logo" />
+    </div>
+
+    <header>
+      <div class="logo">Y2K Baddie</div>
+      <nav>
+        <a href="#collections">Collection</a>
+        <a href="#classes">Classes</a>
+        <a href="#about">About Us</a>
+        <a href="#contact">Contact Us</a>
+        <a href="#map">Find Us</a>
+      </nav>
+      <div class="hamburger" onclick="toggleMenu()">
+        <i class="fas fa-bars"></i>
+      </div>
+    </header>
+
+    <div class="hero">
+      <div>
+        <h1>Welcome to Y2K Baddie</h1>
+        <p>Shop the trend. Learn the game. Be the baddie.</p>
+        <a href="#collections" class="buy-now-btn">SHOP NOW! <i class="fas fa-shopping-bag shopping-icon"></i>
+        </a>
+      </div>
+    </div>
+
+    <section class="collections" id="collections">
+      <h2 class="section-title">Our Collection</h2>
+      <div class="product-grid">
+        <div class="product">
+          <img src="img/alarm:digial clock @12.5.jpg" alt="Product 1" />
+          <h3>Alarm/Digial clock</h3>
+          <p>N12.500</p>
+          <a href="#" class="buy-now-btn">Buy Now</a>
+        </div>
+        <div class="product">
+          <img src="img/bottle:sippy @7k.jpg" alt="Product 1" />
+          <h3>Bottle/Sippy</h3>
+          <p>N7000</p>
+          <a href="#" class="buy-now-btn">Buy Now</a>
+        </div>
+        <div class="product">
+          <img src="img/dessovable towel @4h.jpg" alt="Product 1" />
+          <h3>Dessovable Towel</h3>
+          <p>N400</p>
+          <a href="#" class="buy-now-btn">Buy Now</a>
+        </div>
+        <div class="product">
+          <img src="img/floral clip @3k.jpg" alt="Product 1" />
+          <h3>Floral clip</h3>
+          <p>N3000</p>
+          <a href="#" class="buy-now-btn">Buy Now</a>
+        </div>
+        <div class="product">
+          <img src="img/lip gloss 2.8k.jpg" alt="Product 1" />
+          <h3>Lip Gloss</h3>
+          <p>N2800</p>
+          <a href="#" class="buy-now-btn">Buy Now</a>
+        </div>
+        <div class="product">
+          <img src="img/paint kit @10k.jpg" alt="Product 1" />
+          <h3>Paint Kit</h3>
+          <p>N10,000</p>
+          <a href="#" class="buy-now-btn">Buy Now</a>
+        </div>
+        <div class="product">
+          <img src="img/phone stand @4.5.jpg" alt="Product 1" />
+          <h3>Phone Stand</h3>
+          <p>N4500</p>
+          <a href="#" class="buy-now-btn">Buy Now</a>
+        </div>
+        <div class="product">
+          <img src="img/lip gloss 2.8k.jpg" alt="Product 1" />
+          <h3>Lip Gloss</h3>
+          <p>N2800</p>
+          <a href="#" class="buy-now-btn">Buy Now</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="classes" id="classes">
+      <h2 class="section-title">China Importation Classes</h2>
+      
+      <form>
+        <input type="text" placeholder="Your Name" required />
+        <input type="email" placeholder="Email Address" required />
+        <select required>
+          <option value="">Choose Class Type</option>
+          <option value="online">Online class</option>
+          <option value="physical">Physical class</option>
+        </select>
+        <textarea rows="4" placeholder="Any message or question..."></textarea>
+        <button type="submit">Register</button>
+      </form>
+    </section>
+
+    <section class="about" id="about">
+      <h2 class="section-title">About Us</h2>
+      <p style="text-align: center; max-width: 700px; margin: 0 auto">
+        Y2K Baddie is more than a store—it's a lifestyle. Built to empower
+        baddies who hustle smart, dress bold, and slay with knowledge. Our
+        classes and collections are tailored for the trendy and business-savvy
+        queens.
+      </p>
+    </section>
+
+    <section class="contact" id="contact">
+      <h2 class="section-title">Contact Us</h2>
+      <div class="contact-icons" style="text-align: center">
+        <a href="tel:+1234567890"><i class="fas fa-phone"></i></a>
+        <a href="https://wa.me/1234567890" target="_blank"
+          ><i class="fab fa-whatsapp"></i
+        ></a>
+        <a href="https://www.tiktok.com/@_y2k_baddie" target="_blank"
+          ><i class="fab fa-tiktok"></i
+        ></a>
+        <a href="https://www.instagram.com/__y2k_baddie_/#" target="_blank"
+          ><i class="fab fa-instagram"></i
+        ></a>
+      </div>
+    </section>
+
+    <section class="map" id="map">
+      <h2 class="section-title">Find Us</h2>
+      <!-- <iframe src="https://maps.app.goo.gl/Hc1MLoeZj8PGzyfP6" allowfullscreen="" loading="lazy"></iframe> -->
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3076.1647528808858!2d8.899404018060684!3d9.855458346626444!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x105375ae7125980b%3A0xb5d9cdf936eaadbe!2sRhomat%20Plaza!5e1!3m2!1sen!2sng!4v1744808508799!5m2!1sen!2sng"
+        width="600"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </section>
+
+    <footer>
+      <p>&copy; 2025 Y2K Baddie. All rights reserved.</p>
+      <p>
+        Design by
+        <a
+          href="https://www.instagram.com/yousuf_xxo?igsh=dmZjZjEwM3puaG9p&utm_source=qr"
+          style="color: #ff69b4"
+          >xxo</a
+        >
+      </p>
+    </footer>
+    <script>
+        function toggleMenu() {
+          const nav = document.querySelector("nav");
+          nav.classList.toggle("active");
+        }
+        // Loader handling
+  
+        window.addEventListener("load", () => {
+          setTimeout(() => {
+            document.getElementById("loader").classList.add("hidden");
+            document.getElementById("main-content").classList.remove("hidden");
+          }, 3000);
+        });
+      </script>
